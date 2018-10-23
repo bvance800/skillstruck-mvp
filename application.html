@@ -1,1 +1,144 @@
+<!DOCTYPE html>
 
+<html>
+
+	<head>
+		 <title>Skill Struck: Code Courses for Kids</title>
+
+    	<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom fonts for this template -->
+	    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+
+		<link href="css/application.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<div class="container" id="app-form">
+
+			<div class="jumbotron jumbotron-fluid orange">
+  				<div class="container">
+    				<h1 class="display-4">Instructor Application</h1>
+    				<p class="lead"></p>
+  				</div>
+			</div>
+
+		 	<!-- Content here -->
+		 	<form>
+				<div class="form-row">
+			    	<div class="form-group col-md-6">
+			      		<label for="inputNameFirst">First</label>
+			      		<input type="text" class="form-control" id="inputNameFirst" placeholder="First Name">
+			    	</div>
+			    	<div class="form-group col-md-6">
+			    	<label for="inputNameLast">Last</label>
+			      	<input type="text" class="form-control" id="inputNameLast" placeholder="Last Name">
+			    	</div>
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="inputAddress">Address</label>
+			    	<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="inputAddress2">Address 2</label>
+			    	<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+			 	</div>
+			  	<div class="form-row">
+			    	<div class="form-group col-md-6">
+			      		<label for="inputCity">City</label>
+			    		<input type="text" class="form-control" id="inputCity">
+			    	</div>
+			   		<div class="form-group col-md-4">
+			      		<label for="inputState">State</label>
+			      		<select id="inputState" class="form-control">
+			        		<option selected>Choose...</option>
+			        		<option>Utah</option>
+			        		<option>California</option>
+			        		<option>Arizona</option>
+			        		<option>Idaho</option>
+			      		</select>
+			    	</div>
+			    	<div class="form-group col-md-2">
+			      		<label for="inputZip">Zip</label>
+			      		<input type="text" class="form-control" id="inputZip">
+			   		</div>
+			  	</div>
+
+			  	<div class="form-group">
+  					<label for="comment">Why are you interested in this position:</label>
+  					<textarea class="form-control" rows="5" id="job-interest"></textarea>
+				</div>
+
+				<div class="form-group">
+  					<label for="comment">What qualities set you apart for this position:</label>
+  					<textarea class="form-control" rows="5" id="job-qualities"></textarea>
+				</div>
+
+				<div class="form-group">
+    				<label for="exampleFormControlSelect1">How did you hear about us?</label>
+    				<select class="form-control" id="exampleFormControlSelect1">
+				      <option>Flier</option>
+				      <option>SkillStruck employee</option>
+				      <option>Online Advert</option>
+				      <option>Other</option>
+				    
+    				</select>
+  				</div>
+
+  				<p>As part of the application process, we want to see your teaching skills in action. Below are two linkns that lead to a webpage that could have been built by a child just learning how to code. We want you to record a 2-3 minute video of yourself first teaching the basic concepts on how you would recreate the first website under teh "Basic" link. Second, we want you to show how you would correct the student's mistake present in the "Error" page.
+  				</p>
+  				<p>Upload your video (one combined video of both parts) to Youtube or a similar video sharing platforma dn paste the link down below.</p>
+
+  				<a href="basic.html" target="_blank">
+  					<button type="button" class="btn btn-success">Baisc</button>
+  				</a>
+
+  				<a href="error.html" target="_blank" styles="margin-bottom:10%;">
+					<button type="button" class="btn btn-danger">Error</button>
+				</a>
+				
+				<div class="form-group">
+			      		<label for="inputNameFirst">URL of teaching video</label>
+			      		<input type="text" class="form-control" id="inputNameFirst" placeholder="Youtube URL">
+			    </div>
+
+
+			  	
+			  	<form>
+				<div class="form-group">
+				    <label for="exampleFormControlFile1">Resume</label>
+				    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+				  </div>
+				</form>
+
+				<a href="submitted.html">
+			  		<button type="submit" class="btn btn-primary">Apply</button>
+			  	</a>
+			</form>
+
+
+
+
+		</div>
+		
+	</body>
+
+
+	<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyCx2Q0K_iTc27IToC654EJHjb2B-lCCDjU",
+	    authDomain: "skillstruck-6803d.firebaseapp.com",
+	    databaseURL: "https://skillstruck-6803d.firebaseio.com",
+	    projectId: "skillstruck-6803d",
+	    storageBucket: "skillstruck-6803d.appspot.com",
+	    messagingSenderId: "267727308233"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+</html>

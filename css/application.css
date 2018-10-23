@@ -1,0 +1,43 @@
+html {
+	min-width: 860px;
+}
+
+body {
+	background-color: #4ca5ce;
+}
+
+#app-form{
+	margin-top: 1%;
+	margin-bottom: 2%;
+	width: 1000px;
+	height: 100%;
+	background-color: #e8bb61;
+
+	padding: 1%;
+}
+
+#login-form{
+	margin-top: 10%;
+	max-width: 400px;
+	background-color: #e8bb61;
+	padding: 1%;
+}
+
+.align-vert {
+	display: flex;
+  	align-items: center;
+}
+
+.roww {
+	margin-top: 1%;
+}
+
+.orange {
+	background-color: #7795dd;
+	color: #fff;
+}
+
+#conf-form{
+	margin-top: 5%;
+	background-color: #e8bb61
+}
