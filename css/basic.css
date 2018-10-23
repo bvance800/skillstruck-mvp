@@ -1,1 +1,25 @@
 
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: blue;
+}
+
+.best {
+	color: yellow;
+}
+
+.worst {
+	color: red;
+}
+
+marquee{
+	color: purple;
+}
+
+iframe {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
