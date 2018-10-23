@@ -26,18 +26,6 @@ h6 {
   font-weight: 700;
 }
 
-video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 0;
-}
 
 @media (pointer: coarse) and (hover: none) {
   body {
@@ -135,15 +123,6 @@ video {
   }
 }
 
-.btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
-}
-
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
-}
 
 .input {
   font-weight: 300 !important;
