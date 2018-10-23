@@ -50,12 +50,31 @@ h6 {
 
 .values {
   background-color: #549fb4;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
 }
 
 .val {
   width: 30%;
   display:inline-block;
   padding: 10px;
+}
+
+.positionList {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.boycoding {
+}
+
+
+.jobDesc {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 45%;
 }
 
 .masthead {
@@ -110,7 +129,7 @@ h6 {
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
-    min-height: 0;
+    min-height: 950px;
     /*width: 40.5rem;*/
     padding-bottom: 0;
   }
@@ -122,8 +141,8 @@ h6 {
     transform-origin: top right;
   }
   .masthead .masthead-content {
-    padding-left: 3rem;
-    padding-right: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .masthead .masthead-content h1 {
     font-size: 3.5rem;
